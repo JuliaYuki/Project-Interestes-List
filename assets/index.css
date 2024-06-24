@@ -114,7 +114,7 @@ header h1 {
 .news div {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center;    
     padding: 8px;
     font-size: 12px;
     background: #F5F5F5;
