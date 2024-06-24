@@ -33,6 +33,14 @@ function addInterest() {
     }
 }
 
+const input = document.querySelector('.form input')
+
+input.addEventListener('keydown', (event) => {
+    if (event.key === "Enter") {
+        addInterest()
+    }
+})
+
 function clearInterests() {
     localStorage.removeItem("meus-interesses");
     renderInterests();
